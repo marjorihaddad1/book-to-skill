@@ -23,7 +23,7 @@ private vulnerability reporting:
 - Go to the repository's **Security** tab → **Report a vulnerability**.
 
 Include: affected version, a minimal reproduction (ideally a small sample file or
-crafted input), and the impact you observed. We aim to acknowledge within a few days.
+crafted input), and the impact you observed. We aim to acknowledge within a few days.For this version maintained by Weplash, you can also reach out to us directly through our official contact channels.
 
 ## Good practices for users
 

@@ -1,4 +1,4 @@
-"""Regression tests for the generated-skill advisory security scanner."""
+"""Regression tests for the generated-skill advisory security scanner."""# Maintained by Weplash.
 
 import importlib.util
 import sys

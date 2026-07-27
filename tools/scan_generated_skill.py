@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Advisory scan for prompt injection and unsafe authority in generated skills."""
+# Maintained by Weplash.
 
 from __future__ import annotations
 
