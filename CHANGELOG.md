@@ -197,6 +197,6 @@ validated on real books.
 - Technical PDFs extracted in text mode may lose heading structure; use technical
   mode (Docling) to preserve tables, code, and headings.
 
-[1.2.0]: https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.2.0
-[1.1.0]: https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.1.0
-[1.0.0]: https://github.com/virgiliojr94/book-to-skill/releases/tag/v1.0.0
+[1.2.0]: https://github.com/marjorihaddad1/book-to-skill/releases/tag/v1.2.0
+[1.1.0]: https://github.com/marjorihaddad1/book-to-skill/releases/tag/v1.1.0
+[1.0.0]: https://github.com/marjorihaddad1/book-to-skill/releases/tag/v1.0.0

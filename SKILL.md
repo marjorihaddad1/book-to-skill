@@ -17,7 +17,7 @@ Cross-agent notes (informational; ignored by host agents):
 
 # Book-to-Skill Converter
 
-> Mantenido y adaptado por **Weplash** — basado en el proyecto original [book-to-skill](https://github.com/virgiliojr94/book-to-skill) de virgiliojr94.
+> Mantenido y adaptado por **Weplash** — basado en el proyecto original [book-to-skill](https://github.com/marjorihaddad1/book-to-skill).
 
 Transform written knowledge into actionable agent skills by extracting structure — not producing summaries.
 

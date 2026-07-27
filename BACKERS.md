@@ -2,7 +2,6 @@
 
 Thank you to everyone who sponsors my open-source work. Your support funds PR reviews, multilingual edge-case fixes, releases, and documentation, and keeps these tools free, open, and privacy-first.
 
-**[Become a sponsor → github.com/sponsors/virgiliojr94](https://github.com/sponsors/virgiliojr94)**
 
 ---
 

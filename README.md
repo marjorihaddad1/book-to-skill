@@ -5,7 +5,7 @@
 <h1 align="center">book-to-skill</h1>
 
 <p align="center">
-  <em>Mantenido y adaptado por <strong>Weplash</strong></em> — basado en el proyecto original <a href="https://github.com/virgiliojr94/book-to-skill">book-to-skill</a> de virgiliojr94.
+<em>Mantenido y adaptado por <strong>Weplash</strong></em>, basado en un proyecto open-source original.
 </p>
 
 <p align="center">
@@ -352,7 +352,7 @@ The skill follows the open [Agent Skills](https://github.com/agentskills/agentsk
 **GitHub Copilot CLI** (personal skill):
 
 ```bash
-git clone https://github.com/virgiliojr94/book-to-skill.git ~/.copilot/skills/book-to-skill
+git clone https://github.com/marjorihaddad1/book-to-skill.git ~/.copilot/skills/book-to-skill
 # then, in a `copilot` session:
 /skills reload
 /skills info book-to-skill
@@ -361,7 +361,7 @@ git clone https://github.com/virgiliojr94/book-to-skill.git ~/.copilot/skills/bo
 Or the cross-agent path that Copilot CLI and Amp both discover:
 
 ```bash
-git clone https://github.com/virgiliojr94/book-to-skill.git ~/.agents/skills/book-to-skill
+git clone https://github.com/marjorihaddad1/book-to-skill.git ~/.agents/skills/book-to-skill
 ```
 
 **Claude Code**:
@@ -369,13 +369,13 @@ git clone https://github.com/virgiliojr94/book-to-skill.git ~/.agents/skills/boo
 Copy this into your Claude Code session:
 
 ```
-Install book-to-skill: https://raw.githubusercontent.com/virgiliojr94/book-to-skill/master/SKILL.md
+Install book-to-skill: https://raw.githubusercontent.com/marjorihaddad1/book-to-skill/master/SKILL.md
 ```
 
 Or manually using standard `git clone` (ensures modular engine files are fetched correctly):
 
 ```bash
-git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill
+git clone https://github.com/marjorihaddad1/book-to-skill.git ~/.claude/skills/book-to-skill
 ```
 
 Then in any agent session:
@@ -446,8 +446,6 @@ When in doubt, follow the license or terms of the source document. This project 
 
 book-to-skill is free and MIT-licensed, maintained on personal time. If it saves you tokens or study hours, consider sponsoring its upkeep: PR reviews, multilingual fixes, releases, and docs.
 
-**[Become a sponsor → github.com/sponsors/virgiliojr94](https://github.com/sponsors/virgiliojr94)**
-
 Every sponsor is listed in [BACKERS.md](BACKERS.md). Thank you for keeping open, privacy-first tooling alive. ✨
 
 ## License
@@ -456,10 +454,10 @@ MIT — applies to the converter (code + skill definition) in this repository, *
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=virgiliojr94%2Fbook-to-skill&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=marjorihaddad1%2Fbook-to-skill&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=virgiliojr94/book-to-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=virgiliojr94/book-to-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=virgiliojr94/book-to-skill&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=marjorihaddad1/book-to-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=marjorihaddad1/book-to-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=marjorihaddad1/book-to-skill&type=date&legend=top-left" />
  </picture>
 </a>
