@@ -5,6 +5,10 @@
 <h1 align="center">book-to-skill</h1>
 
 <p align="center">
+  <em>Mantenido y adaptado por <strong>Weplash</strong></em> — basado en el proyecto original <a href="https://github.com/virgiliojr94/book-to-skill">book-to-skill</a> de virgiliojr94.
+</p>
+
+<p align="center">
   <strong>Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work in GitHub Copilot CLI, Amp, or Claude Code.</strong>
 </p>
 
