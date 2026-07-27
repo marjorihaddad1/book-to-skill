@@ -124,6 +124,29 @@ Store the answer as `BOOK_TYPE`:
 
 ---
 
+## Step 1.6 — Identify output language
+
+Ask the user:
+
+> "In what language should the generated skill be written?
+>
+> 1. **Same as the source document** (auto-detect from the extracted text)
+> 2. **Spanish**
+> 3. **English**
+> 4. **Other** — I'll tell you which language"
+
+Store the answer as `OUTPUT_LANG`:
+- Option 1 → detect the dominant language from the first few thousand characters of `full_text.txt` once extracted, and set `OUTPUT_LANG` accordingly.
+- Option 2 → `OUTPUT_LANG=Spanish`
+- Option 3 → `OUTPUT_LANG=English`
+- Option 4 → `OUTPUT_LANG=<user-specified language>`
+
+**Rule:** All generated prose (chapter summaries, glossary definitions, cheatsheet entries, SKILL.md body text) must be written in `OUTPUT_LANG`. However, always preserve as-is, regardless of `OUTPUT_LANG`:
+- Exact framework/technique names as coined by the author (e.g. "The 5 Whys" stays in English even in a Spanish-language skill, with a translation in parentheses on first use)
+- Code snippets, commands, and file paths
+- Proper nouns (author names, book title if untranslated)
+
+---
 ## Step 2 — Extract text from the source documents
 
 Run the extraction script, passing the input paths:
@@ -364,6 +387,9 @@ Create `$SKILLS_HOME/<skill_name>/chapters/ch<NN>-<slug>.md` using the structure
 - `technical` → prioritize "Code Examples", "Reference Tables", and "Commands & APIs" sections; preserve exact syntax
 - `text` → prioritize "Frameworks Introduced", "Mental Models", and "Key Takeaways"; skip empty technical sections
 
+**Write in `OUTPUT_LANG`:** all headings, prose, and takeaways in each chapter file must be in `OUTPUT_LANG`, following the preservation rules from Step 1.6.
+
+
 ```markdown
 # Chapter N: <Full Title>
 
@@ -417,6 +443,8 @@ Create `$SKILLS_HOME/<skill_name>/chapters/ch<NN>-<slug>.md` using the structure
 
 ## Step 8 — Generate supporting files
 
+**Write all three supporting files in `OUTPUT_LANG`** (definitions, pattern descriptions, decision rules), following the preservation rules from Step 1.6 for framework names, code, and proper nouns.
+
 ### glossary.md
 Create `$SKILLS_HOME/<skill_name>/glossary.md`:
 - Every significant term from the book, alphabetically sorted
@@ -454,6 +482,9 @@ Avoid: bare term→definition rows (that's the glossary), and prose paragraphs (
 Compaction truncates from the END — put the most important content FIRST.
 
 Create `$SKILLS_HOME/<skill_name>/SKILL.md`:
+
+**Write the entire body in `OUTPUT_LANG`** (How to Use section, Core Frameworks, table headers can stay in English for cross-agent consistency, but descriptions must be in `OUTPUT_LANG`), following the preservation rules from Step 1.6.
+
 
 ```markdown
 ---
